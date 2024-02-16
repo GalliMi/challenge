@@ -24,7 +24,7 @@ Para realizar carga de usuarios mediante post man, se realiza un post request co
     "estadoSubscripcion": "activa"
     }
 
-Así registra un nuevo usuario con su contraseña cuya contraseña es encriptada a la hora de guardar en la bdd.
+Así registra un nuevo usuario con su contraseña la cual es encriptada a la hora de guardar en la bdd.
 
 
 Para realizar una compra por medio de Stripe se debe hacer un post request con los siguientes datos:
