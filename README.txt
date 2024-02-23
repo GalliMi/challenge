@@ -26,7 +26,7 @@ Para realizar carga de usuarios mediante post man, se realiza un post request co
 
 Así registra un nuevo usuario con su contraseña la cual es encriptada a la hora de guardar en la bdd.
 
-
+Crear un usuario de Stripe, en la seccion "Desarrolladores" copiar la API key de prueba y reemplazar "INSERT-STRIPE-KEY" en application.properties por dicha clave.
 Para realizar una compra por medio de Stripe se debe hacer un post request con los siguientes datos:
 nombre, email y tipo de subscripcion. 
 Un ejemplo a la hora de hacer un post request sería:
